@@ -67,7 +67,7 @@ main {
 }
 
 main section:not(:last-child) {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1.5px solid #000000;
 }
 
 .fab {
@@ -148,6 +148,18 @@ a .fab {
   text-decoration: underline;
 }
 
+
+.job-title {
+  width: 30%;
+  float:left;
+}
+
+.job-body {
+  width: 70%;
+  float:left;
+  border-bottom: 1px solid #615a5a;
+}
+
 ul.job-description li:before{
   content: "✔";
   padding-right: 0.5em;
@@ -159,6 +171,7 @@ footer {
  background: #A7B8BF;
  color: white;
  text-align: right;
+ clear:both;
 }
 
 @media only screen and (max-width: 768px) {
