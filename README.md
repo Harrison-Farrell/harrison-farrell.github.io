@@ -1,7 +1,15 @@
 # I'm Harrison
-Take a look at my [resume](https://harrison-farrell.github.io/) if you are interested. Checkout my other public projects too.
+Take a look at my [resume](https://harrison-farrell.github.io/) if you are interested. Checkout my other public works.
+
+## Papers
+
+* [Boggle Performance Architecture](https://github.com/Harrison-Farrell/Solo-Papers/blob/main/boggle.pdf) - A technical document detailing the architectural design and implementation of a high-performance C++ Boggle solver. It synthesizes insights on Trie-based data structures, bit-packed neighbor lookups, and the application of compile-time optimizations.
+* [CPU Cache & Hardware Optimization Analysis](https://github.com/Harrison-Farrell/Solo-Papers/blob/main/cpu_cache.pdf) - An analysis exploring the fundamental mechanics of hardware-level optimizations. This paper articulates why factors such as contiguous memory layouts, branch prediction, and efficient resource allocation are critical for maximizing throughput on modern CPU architectures.
 
 ## Public Repositories
 
-* [Solo Strategy](https://github.com/Harrison-Farrell/Solo-Strategy) is a  C++ high-performance, low-latency trading system ecosystem designed for high-frequency trading (HFT) applications. This project serves a dual purpose: it is a practical platform for learning the intricacies of High-Frequency Trading systems and an exercise to improve and master C++ development skills. This includes with aligning to core C++ Software principles and IDIOMs such as 'SOLID', 'DRY', 'Coupling & Cohesion' principles and the RAII IDIOM.
-* [Solo Engine](https://github.com/Harrison-Farrell/Solo-Engine) A self-paced learning of a C++ physics simulation engine with a focus on AIS Traffic 
+* [Solo Strategy](https://github.com/Harrison-Farrell/Solo-Strategy) - Developed as a practical platform for mastering C++ development skills and exploring the intricacies of High-Frequency Trading (HFT) systems. The intent is to build a high-performance, low-latency trading ecosystem capable of processing historical UDP ITCH messages into an order book, while strictly adhering to core software principles such as SOLID, DRY, and RAII.
+* [Solo Engine](https://github.com/Harrison-Farrell/Solo-Engine) - Developed as a self-paced learning initiative to explore the fundamentals of physics simulation engines in C++, with a specific focus on simulating Automatic Identification System (AIS) maritime traffic. The project aims to bridge the gap between theoretical physics and real-time software simulation.
+* [Solo Papers](https://github.com/Harrison-Farrell/Solo-Papers) - A repository dedicated to synthesizing and formalizing technical knowledge gained through software development. It serves as a centralized location for comprehensive LaTeX documentation, research papers, and architectural insights, particularly focusing on topics like CPU cache analysis and high-performance algorithms.
+* [Boggle](https://github.com/Harrison-Farrell/Boggle) - An exploratory project aimed at achieving maximum computational throughput in a classic algorithmic problem. The intent is to deeply understand and apply hardware-level optimizations, such as bit-packed neighbor lookups, Trie-based dictionaries, and cache-efficient memory layouts to drastically improve C++ runtime performance.
+* [kdis](https://github.com/Harrison-Farrell/kdis) - A collaborative effort to maintain, enhance, and learn from an open-source C++11 implementation of the IEEE 1278.1 Distributed Interactive Simulation (DIS) standard. The intent is to contribute to the broader simulation community while deepening knowledge of standardized network protocols used in real-time distributed systems.
